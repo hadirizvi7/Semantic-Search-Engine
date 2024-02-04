@@ -1,5 +1,5 @@
 import pinecone
-from secrets import get_secret
+from .s3secrets import get_secret
 
 class Pinecone:
     #Instantiate connection to Pinecone DB

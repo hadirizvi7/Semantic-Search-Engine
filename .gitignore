@@ -1,4 +1,6 @@
 /env
-/app/__pycache__
-/app/.env
-/app/test.py
+/backed/__pycache__
+/backend/.env
+/backend/test.py
+/venv
+/__pycache__

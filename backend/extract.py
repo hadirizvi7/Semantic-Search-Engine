@@ -1,7 +1,7 @@
 import requests, sys
 from dbutils import Pinecone
 from embedding import Embedding
-from secrets import get_secret
+from .s3secrets import get_secret
 
 class Extract:
 

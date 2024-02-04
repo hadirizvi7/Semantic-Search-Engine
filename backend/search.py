@@ -1,6 +1,5 @@
 from embedding import Embedding
 from dbutils import Pinecone
-from dbutils import Pinecone
 import sys
 
 class Search:
@@ -11,7 +10,6 @@ class Search:
     def search(self):
         search_term = self.input_text
         search_vector = Embedding.get_embedding(search_term)
-        #output = query({"vector": search_vector})
         output = {"vector": search_vector}
         db = Pinecone("search-engine")
         results = db.query(output)
