@@ -47,7 +47,7 @@ def get_embedding(text):
     return embedding
 ```
 
-This will return a vector of length 1536, which is standardized across embedded vectors returned.
+This will return a vector of length 1536, which is standardized across OpenAI embedded vectors.
 
 Once the API configurations are set, you can execute the application as follows:
 
@@ -79,4 +79,4 @@ Since the extract process only started in January of 2024, no results prior to t
 
 2. **Integration of Third Party Services**
 
-Currently, the web UI is strictly related to search features.In order to enhance our frontend component, integrating third party features such as login authorization and location services would significantly improve the user experience.
+Currently, the web UI is strictly related to search features. In order to enhance our frontend component, integrating third party features such as login authorization and location services would significantly improve the user experience.
