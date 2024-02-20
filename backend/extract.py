@@ -7,7 +7,7 @@ class Extract:
 
     def __init__(self):
         API_KEY = get_secret()['NEWS_KEY']
-        self.endpoint = url = f'https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEY}'
+        self.endpoint = f'https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEY}'
 
     def addData(self):
         response = requests.get(self.endpoint)
